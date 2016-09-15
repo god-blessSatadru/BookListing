@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">BookListing</string>
+    <string name="book_category">Enter the category of book</string>
+    <string name="search_book">Search</string>
+    <string name="search_intent">Search Intent </string>
+    <string name="default_message">"When the ListView is empty YOu can start creating items by using the setEmptyView method of ArrayAdapter class.
+    For instance consider you have a Listview by the id of @android:id/list and you have a TextView with the id "@android:id/empty
+        THe following should be the lines of code in corresponding java file
+       final ArrayAdapter adapter = new ArrayAdapter(this, Object_of_Generic_type);
+        ListView l= (ListView) findViewbyId(android.R.id.list);
+        l.setEmptyView(findViewById(android.R.id.empty));
+        l.setAdapter(adapter);"
+    </string>>
+    <string name="book">Book</string>
+    <string name="URL">https://www.googleapis.com/books/v1/volumes?q=</string>
+    <string name="max_result">"maxResults=10"</string>>
+</resources>
